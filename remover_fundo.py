@@ -1,9 +1,7 @@
-"""
-Antes de executar esse código, é necessário instalar as seguintes bibliotecas via pip:
-pip install rembg
-pip install Pillow
-pip install colorama
-"""
+#Antes de executar esse código, é necessário instalar as seguintes bibliotecas via pip:
+#pip install rembg
+#pip install Pillow
+#pip install colorama
 
 from rembg import remove
 from PIL import Image
@@ -12,8 +10,8 @@ import os
 
 init()
 
-input_dir = r'D:\removerFundo\comFundo'
-output_dir = r'D:\removerFundo\semFundo'
+input_dir = r'D:\removerFundo\comFundo' # Caminho da pasta de imagens para tirar o fundo
+output_dir = r'D:\removerFundo\semFundo' # Caminho da pasta de imagens sem fundo
 
 os.makedirs(output_dir, exist_ok=True)
 error_files = []
