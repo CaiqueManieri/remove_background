@@ -52,6 +52,8 @@ elif error_files:
    for file in error_files:
       print(f"{Fore.RED}-> {file}{Style.RESET_ALL}")
    print(f"\nAs imagens processadas podem ser encontradas em: {Fore.YELLOW}{output_dir}{Style.RESET_ALL}\n")
+   os.startfile(output_dir)
 else:
    print(f"\n{Fore.GREEN}-> Todas as imagens foram processadas com sucesso!{Style.RESET_ALL}")
    print(f"\nAs imagens processadas podem ser encontradas em: {Fore.YELLOW}{output_dir}{Style.RESET_ALL}\n")
+   os.startfile(output_dir)
